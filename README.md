@@ -9,7 +9,7 @@ This package allows you to execute an action directly on your resource table vie
 ## Installation
 
 ```shell
-composer require pdmfc/nova-action-button
+composer require kayacekovic/nova-action-button
 ```
 
 ## Usage

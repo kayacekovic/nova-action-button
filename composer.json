@@ -1,5 +1,5 @@
 {
-    "name": "pdmfc/nova-action-button",
+    "name": "kayacekovic/nova-action-button",
     "description": "A Laravel Nova field to run actions.",
     "keywords": [
         "laravel",
