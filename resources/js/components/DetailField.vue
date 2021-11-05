@@ -5,6 +5,7 @@
                 class="btn btn-default btn-primary"
                 @click="confirmActionModalOpened = true"
                 :disabled="field.readonly"
+                v-if="!hidden"
                 :style="`background-color: ${field.buttonColor}`"
             >
                 {{ buttonText }}
@@ -163,6 +164,10 @@ export default {
 
         selectedAction() {
             return this.field.action;
+        },
+
+        hidden() {
+            return this.field.hidden || false;
         },
 
         /**

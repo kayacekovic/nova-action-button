@@ -2,7 +2,7 @@
   <div>
     <button
       class="btn btn-default btn-primary flex items-center justify-center"
-      :class="{ hidden: hidden }"
+      v-if="!hidden"
       @click="openConfirmationModal"
       :disabled="disabled"
       :style="`background-color: ${field.buttonColor}`"
